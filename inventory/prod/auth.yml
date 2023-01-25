@@ -1,0 +1,8 @@
+kind: github
+spec:
+  teams_to_roles:
+    - organization: teleport-synaptic
+      team: backend
+      roles:
+        - access
+        - editor
