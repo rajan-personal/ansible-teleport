@@ -72,3 +72,8 @@
 
     - name: Create roles from yml
       ansible.builtin.command: "tctl create -f inventory/roles.yml"
+
+    - name: blank github file
+      ansible.builtin.copy:
+        content: ""
+        dest: output/github.yml
